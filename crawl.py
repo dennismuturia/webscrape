@@ -13,7 +13,7 @@ model = TFBertForTokenClassification.from_pretrained("dbmdz/bert-large-cased-fin
 
 # Seed URLs for testing
 seed_urls = [
-    "https://en.wikipedia.org/wiki/Bill_Gates",
+    "https://thehub.io/startups/skymill-dk",
 ]
 
 visited_urls = set()  # To track visited URLs

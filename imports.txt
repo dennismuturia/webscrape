@@ -1,0 +1,24 @@
+# Standard Python packages
+requests
+beautifulsoup4
+spacy
+re
+transformers
+pytorch
+torch
+
+# TensorFlow with GPU support (CUDA for Nvidia or ROCm for Radeon)
+tensorflow  # This will install CPU version, will be overridden based on GPU detection
+
+# Optional based on GPU:
+tensorflow-gpu    # For Nvidia GPUs (CUDA)
+tensorflow-rocm   # For Radeon GPUs (ROCm)
+
+# Other dependencies for deep learning or NLP tasks
+scikit-learn
+pandas
+numpy
+
+# For processing large data
+faiss-cpu     # Use faiss-cpu if you are not using GPU (general CPU-based Faiss)
+faiss-gpu     # Use faiss-gpu if you are using Nvidia GPU (CUDA-enabled Faiss)
